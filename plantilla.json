@@ -1,0 +1,112 @@
+{
+  "_instrucciones": [
+    "Rellena este archivo con tus preguntas y cárgalo en la página (o pega el texto).",
+    "Los campos que empiezan por _ se ignoran: puedes borrarlos.",
+    "titulo y subtitulo: lo que se ve en la pantalla de inicio.",
+    "moneda: lo que acompaña a los premios (por ejemplo '€' o 'puntos').",
+    "tiempoPorPregunta: segundos para responder. 0 = sin límite.",
+    "mezclarRespuestas: true para desordenar las opciones A-D en cada partida.",
+    "comodines: pon false en los que no quieras usar.",
+    "seguros: números de pregunta (empezando en 1) que garantizan el premio aunque luego se falle.",
+    "modo: 'solo' (toda la clase, escalera de premios) o 'equipos' (rojo contra azul por turnos). Se puede cambiar antes de empezar.",
+    "equipos: nombres de los dos equipos. rebote: si un equipo falla, el otro puede responder por la mitad de puntos.",
+    "premios (opcional): lista con un premio por pregunta. Si no la pones, se calcula sola.",
+    "preguntas: cada una necesita 'pregunta', 4 'opciones' y 'correcta' (A, B, C o D). 'explicacion' e 'imagen' (URL) son opcionales."
+  ],
+  "titulo": "Repaso de cultura general",
+  "subtitulo": "1º ESO · Tema 1",
+  "moneda": "€",
+  "tiempoPorPregunta": 0,
+  "mezclarRespuestas": true,
+  "comodines": {
+    "cincuenta": true,
+    "publico": true,
+    "llamada": true
+  },
+  "seguros": [5, 10],
+  "modo": "solo",
+  "equipos": { "rojo": "Equipo Rojo", "azul": "Equipo Azul" },
+  "rebote": true,
+  "preguntas": [
+    {
+      "pregunta": "¿Cuántos días tiene una semana?",
+      "opciones": ["5", "6", "7", "8"],
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿De qué color es el cielo en un día despejado?",
+      "opciones": ["Verde", "Azul", "Rojo", "Amarillo"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuántas patas tiene una araña?",
+      "opciones": ["6", "8", "10", "4"],
+      "correcta": "B",
+      "explicacion": "Las arañas son arácnidos, no insectos: tienen 8 patas."
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "opciones": ["Madrid", "Roma", "París", "Berlín"],
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué planeta es conocido como el planeta rojo?",
+      "opciones": ["Venus", "Marte", "Júpiter", "Saturno"],
+      "correcta": "B",
+      "explicacion": "Su color se debe al óxido de hierro de su superficie."
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de 7 × 8?",
+      "opciones": ["54", "56", "58", "64"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Quién escribió «Don Quijote de la Mancha»?",
+      "opciones": ["Lope de Vega", "Miguel de Cervantes", "Francisco de Quevedo", "Luis de Góngora"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el océano más grande del mundo?",
+      "opciones": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué gas absorben las plantas para hacer la fotosíntesis?",
+      "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Helio"],
+      "correcta": "C",
+      "explicacion": "Toman CO₂ del aire y, con la luz del sol, producen glucosa y liberan oxígeno."
+    },
+    {
+      "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+      "opciones": ["1492", "1512", "1453", "1500"],
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el símbolo químico del oro?",
+      "opciones": ["Ag", "Au", "Or", "Go"],
+      "correcta": "B",
+      "explicacion": "Viene del latín «aurum». Ag es la plata (argentum)."
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de la península ibérica?",
+      "opciones": ["Ebro", "Tajo", "Duero", "Guadalquivir"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+      "opciones": ["106", "206", "306", "186"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Quién pintó «Las Meninas»?",
+      "opciones": ["Francisco de Goya", "Diego Velázquez", "El Greco", "Bartolomé Murillo"],
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el elemento más abundante del universo?",
+      "opciones": ["Helio", "Oxígeno", "Hidrógeno", "Carbono"],
+      "correcta": "C",
+      "explicacion": "Alrededor del 75 % de la materia normal del universo es hidrógeno."
+    }
+  ]
+}
