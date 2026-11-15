@@ -8,7 +8,8 @@
     "mezclarRespuestas: true para desordenar las opciones A-D en cada partida.",
     "comodines: pon false en los que no quieras usar.",
     "seguros: números de pregunta (empezando en 1) que garantizan el premio aunque luego se falle.",
-    "modo: 'solo' (toda la clase, escalera de premios) o 'equipos' (rojo contra azul por turnos). Se puede cambiar antes de empezar.",
+    "modo: 'solo' (toda la clase, escalera de premios), 'equipos' (rojo contra azul por turnos) o 'reparto' (se reparte el dinero entre 3 respuestas). Se puede cambiar antes de empezar.",
+    "dineroInicial y fajo: solo para el modo reparto. Dinero con el que se empieza y lo que vale cada fajo.",
     "equipos: nombres de los dos equipos. rebote: si un equipo falla, el otro puede responder por la mitad de puntos.",
     "premios (opcional): lista con un premio por pregunta. Si no la pones, se calcula sola.",
     "preguntas: cada una necesita 'pregunta', 4 'opciones' y 'correcta' (A, B, C o D). 'explicacion' e 'imagen' (URL) son opcionales."
@@ -27,6 +28,8 @@
   "modo": "solo",
   "equipos": { "rojo": "Equipo Rojo", "azul": "Equipo Azul" },
   "rebote": true,
+  "dineroInicial": 1000000,
+  "fajo": 10000,
   "preguntas": [
     {
       "pregunta": "¿Cuántos días tiene una semana?",
